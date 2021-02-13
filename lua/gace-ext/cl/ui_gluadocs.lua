@@ -17,7 +17,8 @@ gace.AddHook("AddPanels", "Editor_AddDocsSideBar", function(frame, basepnl)
 		if self.IsOpened == b then return end
 
 		if b and not docshtml.Loaded then
-			docshtml:OpenURL("http://samuelmaddock.github.io/glua-docs/")
+			--docshtml:OpenURL("http://samuelmaddock.github.io/glua-docs/")
+			docshtml:OpenURL("https://wiki.facepunch.com/gmod/")
 			docshtml.Loaded = true
 
 			docshtml:QueueJavascript([[
